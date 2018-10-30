@@ -1,19 +1,9 @@
-package sample;
 
 public class HelloWorld {
 
-	public void HelloWorld1() {
-		System.out.println("Initial");
-	}
+    public static void main(String[] args) {
+        // Prints "Hello, World" to the terminal window.
+        System.out.println("Hello, World");
+    }
 
-	public HelloWorld()
-	{
-		System.out.println("Calling constructor");
-	}
-
-	public static void main(String[] args)
-	{
-		HelloWorld obj1= new HelloWorld();
-		//obj1.HelloWorld1();
-	}
 }
